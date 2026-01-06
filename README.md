@@ -1,6 +1,7 @@
 # Erno_Enigma
 <p>This project (Erno Enigma - 3 by 3 Rubiks Cube Solver) was done in the second semester and the idea was to be able to solve a 3*3 rubiks cube from the state at which it is (which is scrambled). And the code is written entirely in C. After the the code was made, an attempt was made to use it in <b>Arduino based rubiks cube solver</b>.</p><p>Given below is the image of it.</p>
-<center><img src="./"/></center>
+<center><img src="./Assembled.jpg"/></center>
+
 <p>Given below are the components used to make the proejct.</p>
 <table>
   <thead>
