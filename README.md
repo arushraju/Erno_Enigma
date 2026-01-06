@@ -1,6 +1,6 @@
 # Erno Enigma
 <p>
-This project (<b>Erno Enigma – 3×3 Rubik’s Cube Solver</b>) was carried out in the second semester with the objective of solving a <b>3×3 Rubik’s Cube</b> from an arbitrary scrambled state. The solver was implemented entirely in <b>C</b>. Following the software implementation, an attempt was made to integrate the solver into an <b>Arduino-based Rubik’s Cube solving system</b>.
+This project (<b>Erno Enigma – 3×3 Rubik’s Cube Solver</b>) was carried out in the second year with the objective of solving a <b>3×3 Rubik’s Cube</b> from an arbitrary scrambled state. The solver was implemented entirely in <b>C</b>. Following the software implementation, an attempt was made to integrate the solver into an <b>Arduino-based Rubik’s Cube solving system</b>.
 </p>
 <p>
 An image of the setup is shown below.
