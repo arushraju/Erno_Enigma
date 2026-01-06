@@ -41,7 +41,7 @@
 <p>But in future I would love to resume my work on making this Arduino based rubiks cueb solver with better robust structures, accurate and powerful mototrs, and more efficient algorithm to solve Rubik's cube.</p>
 <p>
   <h2>Wooden stand to hold the motors.</h2><br>
-  <img src=""/>
+  <img src="./Motor_Support.jpg"/>
   <hr>
   <h2>Base of the structure</h2><br>
   <img src=""/>
