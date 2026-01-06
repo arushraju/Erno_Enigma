@@ -22,5 +22,19 @@
       <td>Arduino Mega</td>
       <td>Arduino mega was used with the memeory of code kept in mind.</td>
     </tr>
+    <tr>
+      <td>Ice Cream Sticks</td>
+      <td>This was choosen as a cheap alternative to 3D printed components for making the structure of rubisk cube solver. The structure holded the stepper motor whcih holded the faces of rubiks cube. It also have space for adjusting the micro-processor and wires involved (along witht he bread board). Stands to hold the motors on the sides and thign that attached the motors with rubiks cube faces where also made using ice cream sticks and stepper motors.</td>
+    </tr>
   </tbody>
 </table>
+
+<p>
+  The projects did not turned out well due to 
+  <ol>
+    <li>High friction fo rubiks cube. Eevry turned however simple and effortless it might seem using hands, but was tough and rouhg on the stepper motors.</li>
+    <li>Weak Stepper motors. The stepper motors used were of <b>abc</b>, and they were weak for the project.</li>
+    <li>Weak and fragile Structures. The structure was made using the ice cream sticks and many estimations. It wasnt perfect. And hence this could be the biggest reason the project didn't do well.</li>
+  </ol>
+</p>
+<p>But in future I would love to resume my work on making this Arduino based rubiks cueb solver with better robust structures, accurate and powerful mototrs, and more efficient algorithm to solve Rubik's cube.</p>
