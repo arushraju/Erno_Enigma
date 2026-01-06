@@ -44,5 +44,6 @@
   <img src="./Motor_Support.jpg"/>
   <hr>
   <h2>Base of the structure</h2><br>
-  <img src=""/>
+  <img src="Base.jpg"/>
+  
 </p>
