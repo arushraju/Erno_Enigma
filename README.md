@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>Stepper motor</td>
+      <td>28BYJ-48 Stepper Motor</td>
       <td>There are six faces in Rubiks cube and it is theoritically possible to rotate just five faces and solve the rubiks cube. The code <b>Erno's Enigma</b> only rotates five faces of rubisk cube to solve it, hence five stepper motors were sued.. A stepper motor could be roated to any degree, any number of tiems. And therefore this was used to in the project to rotate the fac es of rubik's cube.</td>
     </tr>
     <tr>
@@ -34,7 +34,7 @@
   The projects did not turned out well due to 
   <ol>
     <li>High friction fo rubiks cube. Eevry turned however simple and effortless it might seem using hands, but was tough and rouhg on the stepper motors.</li>
-    <li>Weak Stepper motors. The stepper motors used were of <b>abc</b>, and they were weak for the project.</li>
+    <li>Weak Stepper motors. The stepper motors used were of <b>28BYJ-48 Stepper Motor DC 5V</b>, and they were weak for the project.</li>
     <li>Weak and fragile Structures. The structure was made using the ice cream sticks and many estimations. It wasnt perfect. And hence this could be the biggest reason the project didn't do well.</li>
   </ol>
 </p>
