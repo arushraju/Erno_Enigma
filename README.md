@@ -1,5 +1,11 @@
 # Erno Enigma
-<p>This project (Erno Enigma - 3 by 3 Rubiks Cube Solver) was done in the second semester and the idea was to be able to solve a 3*3 rubiks cube from the state at which it is (which is scrambled). And the code is written entirely in C. After the the code was made, an attempt was made to use it in <b>Arduino based rubiks cube solver</b>.</p><p>Given below is the image of it.</p>
+<p>
+This project (<b>Erno Enigma – 3×3 Rubik’s Cube Solver</b>) was carried out in the second semester with the objective of solving a <b>3×3 Rubik’s Cube</b> from an arbitrary scrambled state. The solver was implemented entirely in <b>C</b>. Following the software implementation, an attempt was made to integrate the solver into an <b>Arduino-based Rubik’s Cube solving system</b>.
+</p>
+<p>
+An image of the setup is shown below.
+</p>
+
 <center><img src="./Assembled.jpg"/></center>
 
 <p>Given below are the components used to make the proejct.</p>
@@ -13,19 +19,24 @@
   <tbody>
     <tr>
       <td>28BYJ-48 Stepper Motor</td>
-      <td>There are six faces in Rubiks cube and it is theoritically possible to rotate just five faces and solve the rubiks cube. The code <b>Erno's Enigma</b> only rotates five faces of rubisk cube to solve it, hence five stepper motors were sued.. A stepper motor could be roated to any degree, any number of tiems. And therefore this was used to in the project to rotate the fac es of rubik's cube.</td>
+      <td>
+        A Rubik’s Cube has six faces; however, it is theoretically sufficient to rotate only five faces to solve the cube. The <b>Erno’s Enigma</b> solver follows this principle by operating on five faces, and hence five stepper motors were used.          Each stepper motor can be rotated by arbitrary angles and for any number of steps, making them suitable for controlling the rotational motion of the cube’s faces in this project.
+      </td>
     </tr>
     <tr>
       <td>5V Voltage Regulator</td>
-      <td>The stepper motors used worked on 5V voltage and thus the regulators. Indian Voltage reguilation provides with 220V of AC current. And this has to be convetred to 5V DC current before using it to power the stepper motor.</td>
+        <td>The stepper motors used in this project operate at <b>5 V DC</b>. Since the standard Indian mains supply provides <b>220 V AC</b>, appropriate voltage regulation was required to convert the input power to <b>5 V DC</b> before driving               the stepper motors.</td>
+      </td>
     </tr>
     <tr>
       <td>Arduino Mega</td>
-      <td>Arduino mega was used with the memeory of code kept in mind.</td>
+      <td>An <b>Arduino Mega</b> was used, keeping the program memory requirements in mind.
+</td>
     </tr>
     <tr>
       <td>Ice Cream Sticks</td>
-      <td>This was choosen as a cheap alternative to 3D printed components for making the structure of rubisk cube solver. The structure holded the stepper motor whcih holded the faces of rubiks cube. It also have space for adjusting the micro-processor and wires involved (along witht he bread board). Stands to hold the motors on the sides and thign that attached the motors with rubiks cube faces where also made using ice cream sticks and stepper motors.</td>
+      <td>This approach was chosen as a low-cost alternative to 3D-printed components for constructing the Rubik’s Cube solver structure. The frame supported the stepper motors that actuated the cube faces and provided space for mounting the microcontroller, wiring, and breadboard. Motor stands and the mechanical linkages connecting the stepper motors to the cube faces were fabricated using ice-cream sticks.
+</td>
     </tr>
   </tbody>
 </table>
@@ -33,12 +44,12 @@
 <p>
   The projects did not turned out well due to 
   <ol>
-    <li>High friction fo rubiks cube. Eevry turned however simple and effortless it might seem using hands, but was tough and rouhg on the stepper motors.</li>
-    <li>Weak Stepper motors. The stepper motors used were of <b>28BYJ-48 Stepper Motor DC 5V</b>, and they were weak for the project.</li>
-    <li>Weak and fragile Structures. The structure was made using the ice cream sticks and many estimations. It wasnt perfect. And hence this could be the biggest reason the project didn't do well.</li>
+    <li>High friction in the Rubik’s Cube. Although rotations are simple when performed manually, the friction made the turns difficult and demanding on the stepper motors.</li>
+<li>Weak stepper motors. The motors used (<b>28BYJ-48 Stepper Motor, 5 V DC</b>) did not provide sufficient torque for reliable operation.</li>
+<li>Weak and fragile structure. The frame, constructed using ice-cream sticks and approximate measurements, lacked rigidity and precision, which significantly affected overall performance.</li>
   </ol>
 </p>
-<p>But in future I would love to resume my work on making this Arduino based rubiks cueb solver with better robust structures, accurate and powerful mototrs, and more efficient algorithm to solve Rubik's cube.</p>
+<p>But in future I would love to resume my work on making this Arduino based rubiks cueb solver with better robust structures, accurate and powerful motors, and more efficient algorithm to solve Rubik's cube.</p>
 <p>
   <h2>Wooden stand to hold the motors.</h2><br>
   <img src="./Motor_Support.jpg"/>
