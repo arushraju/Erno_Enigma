@@ -20,7 +20,7 @@ An image of the setup is shown below.
     <tr>
       <td>28BYJ-48 Stepper Motor</td>
       <td>
-        A Rubik’s Cube has six faces; however, it is theoretically sufficient to rotate only five faces to solve the cube. The <b>Erno’s Enigma</b> solver follows this principle by operating on five faces, and hence five stepper motors were used.          Each stepper motor can be rotated by arbitrary angles and for any number of steps, making them suitable for controlling the rotational motion of the cube’s faces in this project.
+        A Rubik’s Cube has six faces; however, it is theoretically sufficient to rotate only five faces to solve the cube. The <b>Erno’s Enigma</b> solver follows this principle by operating on five faces, and hence five stepper motors were used.          Each stepper motor can be rotated by arbitrary angles and for any number of steps, making them suitable for controlling the rotational motion of the cube’s faces in this project (Unlike servo motors).
       </td>
     </tr>
     <tr>
